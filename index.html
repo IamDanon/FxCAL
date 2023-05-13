@@ -1,0 +1,19 @@
+<a href="#" id="load-widget">Загрузить Economic Calendar</a>
+
+<div id="economic-calendar-312439"></div>
+
+<script type="text/javascript" src="https://www.rebatekingfx.com/Content/remote/remote-calendar-widget.js"></script>
+
+<script type="text/javascript">
+  document.getElementById("load-widget").onclick = function(e) {
+    e.preventDefault(); 
+    RemoteCalendar({
+      "DefaultTime": "today",
+      "DefaultTheme": "dark",
+      "Url":"https://www.rebatekingfx.com", 
+      "SubPath":"economic-calendar",
+      "IsShowEmbedButton":false,
+      "ContainerId":"economic-calendar-312439"
+    });
+  };
+</script>
